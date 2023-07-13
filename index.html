@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PRE ENTREGA 3 HERNANDEZ</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>¡Bienvenido a Naribarber!</h1>
+    <p>Complete el siguiente formulario:</p>
+    <form>
+      <div class="formChild">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input id="nameClient" type="text" required />
+        </div>
+        <div>
+          <label for="apellido">Apellido:</label>
+          <input id="surnameClient" type="text" required />
+        </div>
+        <div>
+          <label for="fecha">Fecha:</label>
+          <input id="dateClient" type="date" required />
+        </div>
+        <div>
+          <label for="hora">Hora:</label>
+          <select id="hourClient" required>
+            <option value="">Selecciona una hora</option>
+          </select>
+        </div>
+        <button id="btnSave" type="button">Guardar</button>
+      </div>
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>
